@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+}
+
+.article {
+  height: 98px;
+  width: 175px;
+  place-items: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  border-width: 5px;
+  border-radius: 25px;
+  box-shadow: 5px;
+  border-color: black;
+  margin: 3px;
+}
+
+.wordCard{
+  font-weight: 800;
+  height: 105px;
+  width: 175px;
+  border-radius: 25px;
+  place-items: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.divWithCards{
+  width: 1000px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+
+.team{
+  display: flex;
+}
+
+.topCenter{
+  display:flex;
+}
+
+.gamePage{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+
+.topCenter{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+body{
+  background-color: #bae7ff;
+}
+
+
+
+.title {
+  text-align: center;
+ 
+  padding: 2%;
+  background-color: #91d5ff;
+  color: #efefef;
+}
+
+.gameTopDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.blueTeam{
+  height: 75px;
+  width: 250px;
+  border-radius: 30px;
+  background-color: blue;
+}
+
+.redTeam{
+  height: 75px;
+  width: 250px;
+  border-radius: 30px;
+  background-color: red;
+}
+.roleButtons{
+  height: 30px;
+  border-radius: 20px;
+}
+/* 
+.main{
+  max-height: 100vh;
+} */
+
+.gameField{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.clueForm{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.aboveCards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.scoreRed{
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+  background-color: red;
+}
+
+.scoreBlue{
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+}
